@@ -58,5 +58,5 @@ def not_found(error):
     return make_response(jsonify({'error': 'Invalid data!'}), 400)
 
 if __name__ == '__main__':
-    app.run(host='172.30.53.250', port=8099)
+    app.run(host='0.0.0.0', port=8099)
 
